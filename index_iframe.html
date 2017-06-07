@@ -40,6 +40,39 @@
             </select>
           </label>
           </div>
+<h4>
+  Recycling services
+</h4>
+<ul class='inputs-list unstyled'>
+  <li>
+    <label class='checkbox inline'>
+      <input type='checkbox' id='cbType1' />
+      <span class='filter-box filter-green'></span>
+      G-cafe User
+    </label>
+  </li>
+  <li>
+    <label class='checkbox inline'>
+      <input type='checkbox' id='cbType2' />
+      <span class='filter-box filter-blue'></span>
+      Non G-cafe User
+    </label>
+  </li>
+  <li>
+    <label class='checkbox inline'>
+      <input type='checkbox' id='cbType3' />
+      <span class='filter-box filter-yellow'></span>
+      No Cafe in Area
+    </label>
+  </li>
+  <li>
+    <label class='checkbox inline'>
+      <input type='checkbox' id='cbType4' />
+      <span class='filter-box filter-red'></span>
+      Dangerous Area
+    </label>
+  </li>
+</ul>
           &nbsp;&nbsp;&nbsp;&nbsp;
           <div class="form-group">
             <div class="btn-group">
@@ -77,11 +110,11 @@
         $(function() {
           
           var myMap = new MapsLib({
-            fusionTableId:      "1m4Ez9xyTGfY2CU6O-UgEcPzlS0rnzLU93e4Faa0",
-            googleApiKey:       "AIzaSyA3FQFrNr5W2OEVmuENqhb2MBB2JabdaOY",
-            locationColumn:     "geometry",
-            map_center:         [41.8781136, -87.66677856445312],
-            locationScope:      "chicago"
+            fusionTableId:      "1XxUkYSXgt6PkAtz0EZl6K1s4KTYycIhF-NfF5b3D",
+            googleApiKey:       "AIzaSyDj3bGR8ZbyBDSe-bJO5VL7iyGV3aUUdac",
+            locationColumn:     "Location",
+            map_center:         [14.5431108,121.0240347],
+            locationScope:      "Fort Bonifacio, Taguig, Metro Manila"
           });
 
           
