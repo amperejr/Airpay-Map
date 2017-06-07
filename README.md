@@ -1,7 +1,7 @@
 # Fusion Table Searchable Map [Cafe Mobile]
-You want to put your data on a searchable, filterable map. This is a free, open source template to help you do it.
+Cafe Mobile Map Update
 
-[See the working demo &raquo;](http://jinstryder.github.io/FusionTable-Map-Template/)
+[View Map Update &raquo;](http://jinstryder.github.io/FusionTable-Map-Template/)
 
 ## Copyright and attribution
 
