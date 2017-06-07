@@ -1,7 +1,7 @@
 # Fusion Table Searchable Map [Cafe Mobile]
 Cafe Mobile Map Update
 
-[View Map Update &raquo;](http://jinstryder.github.io/FusionTable-Map-Template/)
+[View Map Update &raquo;](http://jinstryder.github.io/FusionTable-Map-Template/Index.html)
 
 ## Copyright and attribution
 
