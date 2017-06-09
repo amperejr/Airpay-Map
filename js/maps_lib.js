@@ -142,7 +142,7 @@
                             title: address
                         });
                     }
-                    var geoCondition = " AND ST_INTERSECTS(" + self.locationColumn + ", AREA(LATLNG" + self.currentPinpoint.toString() + "," + self.searchRadius + "))";
+                    var geoCondition = " AND ST_INTERSECTS(" + self.locationColumn + ", CIRCLE(LATLNG" + self.currentPinpoint.toString() + "," + self.searchRadius + "))";
                     callback(geoCondition);
                     self.drawSearchRadiusCircle(self.currentPinpoint);
                 } else {
